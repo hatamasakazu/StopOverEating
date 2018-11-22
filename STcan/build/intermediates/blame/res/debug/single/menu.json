@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\res\\merged\\debug\\menu\\hot.xml",
+        "source": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\res\\menu\\hot.xml"
+    },
+    {
+        "merged": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\res\\merged\\debug\\menu\\cold.xml",
+        "source": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\res\\menu\\cold.xml"
+    },
+    {
+        "merged": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\res\\merged\\debug\\menu\\device_control.xml",
+        "source": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\res\\menu\\device_control.xml"
+    },
+    {
+        "merged": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\res\\merged\\debug\\menu\\check.xml",
+        "source": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\res\\menu\\check.xml"
+    },
+    {
+        "merged": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\res\\merged\\debug\\menu\\comfortable.xml",
+        "source": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\res\\menu\\comfortable.xml"
+    },
+    {
+        "merged": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\res\\merged\\debug\\menu\\ready.xml",
+        "source": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\res\\menu\\ready.xml"
+    },
+    {
+        "merged": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\res\\merged\\debug\\menu\\test.xml",
+        "source": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\res\\menu\\test.xml"
+    },
+    {
+        "merged": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\res\\merged\\debug\\menu\\device_list.xml",
+        "source": "C:\\Users\\htmsk\\Desktop\\M2\\STcan\\res\\menu\\device_list.xml"
+    }
+]

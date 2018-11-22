@@ -1,0 +1,7 @@
+#Sat Nov 10 19:59:28 EET 2018
+base.0=C\:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e18d2dc9a4da735fdd6358d507bab1bccab33f13
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bbe12555e58ddb78e50be652850142337193a0ce\\classes.dex
+base.1=C\:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bbe12555e58ddb78e50be652850142337193a0ce
+file.0=C\:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e18d2dc9a4da735fdd6358d507bab1bccab33f13\\classes.dex

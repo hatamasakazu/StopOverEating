@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="main.TestActivity" >
+    
+    <Button
+        android:id="@+id/test_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_hot" />
+    
+    <Button
+        android:id="@+id/test_comfortble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_comfortable" />
+    
+    <Button
+        android:id="@+id/test_cold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_cold" />
+    
+    <Button
+        android:id="@+id/test_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_back" />
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\htmsk\Desktop\M2\STcan\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="29f2b5b0aa31df36e57d2dcf08bc9e822ae2064d">
+        <dex dex="C:\Users\htmsk\Desktop\M2\STcan\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bbe12555e58ddb78e50be652850142337193a0ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\htmsk\Desktop\M2\STcan\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="C:\Users\htmsk\Desktop\M2\STcan\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_36ed8018ee6d1e5453b637765c95ee138bd819c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\htmsk\Desktop\M2\STcan\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\htmsk\Desktop\M2\STcan\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e18d2dc9a4da735fdd6358d507bab1bccab33f13\classes.dex" />
+    </item>
+
+</items>
