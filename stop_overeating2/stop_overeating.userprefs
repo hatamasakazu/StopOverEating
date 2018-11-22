@@ -1,0 +1,30 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MusicSound.cs">
+    <Files>
+      <File FileName="Assets\Hata_Script\Score_stage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Hata_Script\HP_score.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game5\Script\PackStage5.cs" Line="1" Column="1" />
+      <File FileName="Assets\Hata_Script\Finish_process.cs" Line="134" Column="15" />
+      <File FileName="Assets\playerscore_disp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game3\script\PackStage3.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game5\Script\Movekey_Randam5.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game5\Script\Maze5.cs" Line="1" Column="1" />
+      <File FileName="Assets\Hata_Script\MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Hata_Script\Cal_score.cs" Line="1" Column="1" />
+      <File FileName="Assets\Hata_Script\Movekey_Randam.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game3\script\Movekey_Randam3.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game4\script\Movekey_Randam4.cs" Line="184" Column="4" />
+      <File FileName="Assets\Plugins\Pixelplacement\iTween\iTween.cs" Line="3210" Column="1" />
+      <File FileName="Assets\ObjectShaker.cs" Line="27" Column="3" />
+      <File FileName="Assets\ObjectColor.cs" Line="18" Column="26" />
+      <File FileName="Assets\MusicSound.cs" Line="78" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\htmsk\Documents\stop_overeating\Assets\Simple Health Bar\Editor\SimpleHealthBarEditor.cs" line="12" column="2" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
