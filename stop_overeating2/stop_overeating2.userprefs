@@ -1,19 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Pacman\CreateAsset\Game3\script\PackStage3.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\IP_Port_disp.cs">
     <Files>
-      <File FileName="Assets\Hata_Script\Overall_processing\Finish_process.cs" Line="48" Column="3" />
+      <File FileName="Assets\Hata_Script\Overall_processing\Finish_process.cs" Line="1" Column="1" />
       <File FileName="Assets\Disp_score2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Disp_score3.cs" Line="25" Column="27" />
+      <File FileName="Assets\Disp_score3.cs" Line="1" Column="1" />
       <File FileName="Assets\Disp_score4.cs" Line="1" Column="1" />
       <File FileName="Assets\Hata_Script\sounds\AudioManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Hata_Script\MainMenu\MainMenu.cs" Line="1" Column="1" />
       <File FileName="Assets\Quit_Button.cs" Line="1" Column="1" />
       <File FileName="Assets\LevelSet.cs" Line="1" Column="1" />
-      <File FileName="Assets\Calibration.cs" Line="66" Column="20" />
-      <File FileName="Assets\Food_Count3.cs" Line="33" Column="1" />
-      <File FileName="Assets\Pacman\CreateAsset\Game3\script\PackStage3.cs" Line="234" Column="37" />
+      <File FileName="Assets\Calibration.cs" Line="1" Column="1" />
+      <File FileName="Assets\Food_Count3.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game3\script\PackStage3.cs" Line="1" Column="1" />
       <File FileName="Assets\Pacman\CreateAsset\Game2\script\PackStage2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\MyViewer.cs" Line="40" Column="4" />
+      <File FileName="Assets\Script\SocketServer\ServerTest.cs" Line="15" Column="3" />
+      <File FileName="Assets\Script\SocketServer\SocketServer.cs" Line="20" Column="17" />
+      <File FileName="Assets\IP_Port_disp.cs" Line="9" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

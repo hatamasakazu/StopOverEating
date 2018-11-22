@@ -12,16 +12,20 @@ namespace Script.SocketServer
 		// ポート指定（他で使用していないもの、使用されていたら手元の環境によって変更）
 		[SerializeField]private int _port;
 #pragma warning restore 0649
-		
+
+	
+
 		private void Start(){
 			// 接続中のIPアドレスを取得
 			var ipAddress = Network.player.ipAddress;
 			// 指定したポートを開く
 			Listen(ipAddress, _port);
-
+	
 			// システムに接続情報をセット（表示用）
 			MyViewer.Instance.SetIpAddressPort (ipAddress + ":" + _port);
 		}
+
+
 
 
 

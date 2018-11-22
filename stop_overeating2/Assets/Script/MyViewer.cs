@@ -29,7 +29,6 @@ namespace Script
 
 
 
-
 #pragma warning disable 0649
 		// 画面表示用
 		[SerializeField]private Text _ipportField;
