@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using UnityEngine.UI;
 
 /*
  * TestServer.cs
@@ -13,6 +13,7 @@ namespace Script.SocketServer
 		[SerializeField]private int _port;
 #pragma warning restore 0649
 
+	
 	
 
 		private void Start(){
@@ -46,9 +47,12 @@ namespace Script.SocketServer
 				MyViewer.Instance.SetNum (num);
 				// クライアントに受領メッセージを返す
 				SendMessageToClient ("Accept:"+ num+"\n");
+
 			} else {
 				// クライアントにエラーメッセージを返す
 				SendMessageToClient ("Error\n");
+
+
 			}
 		}
 

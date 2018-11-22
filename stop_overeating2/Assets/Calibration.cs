@@ -32,6 +32,9 @@ namespace Script.SocketServer
 
 		public List<int> listCalibulation_Value = new List<int> {};
 		public List<int> listCal_to_finishValue = new List<int>{};
+
+		public List<int> listError = new List<int> {};
+
 		public List<int> listSec_interval = new List<int>{};
 		public List<int> listSec_average = new List<int>{};
 
@@ -51,7 +54,9 @@ namespace Script.SocketServer
 		public GameObject GoodorBad_gd;
 		public Text calibration_text;
 		public Text calibration_text2;
+		public Text error_text;
 
+		private int error_size;
 		public int size1;
 		public int size2;
 		public int size3;
@@ -104,11 +109,18 @@ namespace Script.SocketServer
 		void Update(){
 			//Debug.Log ("更新中");
 			if (Time.timeSinceLevelLoad < caliburation_time) {
-				
+				try{
+					error_size = (int)myviewer_script.listValue.Average();
+					error_text.text = "Can connect";
+
+				}catch{
+					error_text.text = "Error! can't connect";
+				}
 				//Debug.Log ("くた１"+Time.timeSinceLevelLoad);
 			} else if (Time.timeSinceLevelLoad >= caliburation_time && Time.timeSinceLevelLoad < total_time) {
 				
 				if (flag) {
+					error_text.text = "";
 					main_gd.SetActive (false);
 					calibration_gd.SetActive (true);
 					calibration_gd2.SetActive (true);
