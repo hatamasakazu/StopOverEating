@@ -27,6 +27,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -58,13 +59,13 @@ public class ComfortableActivity extends Activity implements View.OnClickListene
 	private ECG ecg;
 
 	private  Button button;
+
 	// private MyDataView mv;
 
 	private RealTimepNNView pNNrect;
 
 	// valuable to write file name
 	String file_date, file_path;
-
 
 
 
@@ -146,6 +147,8 @@ public class ComfortableActivity extends Activity implements View.OnClickListene
 		pNNrect = new RealTimepNNView(this, ecg.getRri());
 		rLayout.addView(pNNrect);
 
+
+
 		button = (Button)findViewById(R.id.socketbutton);
 		button.setOnClickListener(this);
 
@@ -213,11 +216,14 @@ public class ComfortableActivity extends Activity implements View.OnClickListene
 
 	@Override
 	public void onClick(View view) {
+
 		Soket tt = new Soket();
 		Log.d("soket", "soketstart");
 		tt.start();
 
 	}
+
+
 
 	class PushButtonListener implements View.OnClickListener {
 		@Override

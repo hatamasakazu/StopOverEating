@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/test_hot" />
-    
+
     <Button
         android:id="@+id/test_comfortble"
         android:layout_width="match_parent"
@@ -29,6 +29,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/test_back" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="118dp"
+        android:layout_height="0dp"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/ipaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="IP Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/portnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Port Number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ipportbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP_Port Button" />
 
 
 </LinearLayout>

@@ -17,18 +17,25 @@ import java.io.OutputStreamWriter;
 
 import java.net.Socket;
 
+import android.os.Debug;
 import android.util.Log;
+import android.widget.EditText;
 
 import java.lang.Thread;
 
+import main.TestActivity;
 import receiveddata.RRI;
+import test.ComfortableActivity;
 
-    public class Soket extends Thread {
+public class Soket extends Thread {
 
 
         private String m_szIp = "192.168.42.206";    //アクセス先IP
         private  String m_szIp2 = "172.20.10.4";
+        private  String m_szIp3 = TestActivity.ip_text;
+        private String m_nPort2 = TestActivity.po_text;
         private int m_nPort = 11888;            //アクセス先ポート
+        private int PortNumber;
 
 
 
@@ -38,12 +45,17 @@ import receiveddata.RRI;
 
             @Override
             public void run () {
+                PortNumber = Integer.parseInt(m_nPort2);
                 Log.d("hai2","処理");
+                Log.d("ipaddress","ipaddress2"+m_szIp3);
+
+                Log.d("ipaddress","portnumber2"+PortNumber);
+
                 try {
                     Log.d("hai","入った");
 
                     //通信用ソケット作成
-                    Socket socket = new Socket(m_szIp2, m_nPort);
+                    Socket socket = new Socket(m_szIp3, PortNumber);
 
                     InputStream in = socket.getInputStream();
 

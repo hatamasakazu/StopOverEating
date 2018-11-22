@@ -12,10 +12,17 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class TestActivity extends Activity {
 	
 	private Button hot, comfortable, cold, back;
+
+	private   EditText ipaddress;
+	private   EditText portnumber;
+	public static String ip_text = "";
+	public  static String po_text = "";
+	private  Button pushbutton;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +38,19 @@ public class TestActivity extends Activity {
 		comfortable.setOnClickListener(new PushButtonListener());
 		cold.setOnClickListener(new PushButtonListener());
 		back.setOnClickListener(new PushButtonListener());
+
+		ipaddress = (EditText)findViewById(R.id.ipaddress);
+		portnumber = (EditText)findViewById(R.id.portnumber);
+
+		pushbutton = (Button)findViewById(R.id.ipportbutton);
+		pushbutton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				ip_text = ipaddress.getText().toString();
+				po_text = portnumber.getText().toString();
+			}
+		});
+
 	}
 
 	@Override
