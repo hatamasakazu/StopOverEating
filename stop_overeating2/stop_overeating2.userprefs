@@ -1,8 +1,8 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Calibration.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Hata_Script\Overall_processing\Finish_process.cs">
     <Files>
-      <File FileName="Assets\Hata_Script\Overall_processing\Finish_process.cs" Line="1" Column="1" />
+      <File FileName="Assets\Hata_Script\Overall_processing\Finish_process.cs" Line="63" Column="3" />
       <File FileName="Assets\Disp_score2.cs" Line="1" Column="1" />
       <File FileName="Assets\Disp_score3.cs" Line="1" Column="1" />
       <File FileName="Assets\Disp_score4.cs" Line="1" Column="1" />
@@ -10,14 +10,16 @@
       <File FileName="Assets\Hata_Script\MainMenu\MainMenu.cs" Line="1" Column="1" />
       <File FileName="Assets\Quit_Button.cs" Line="1" Column="1" />
       <File FileName="Assets\LevelSet.cs" Line="1" Column="1" />
-      <File FileName="Assets\Calibration.cs" Line="123" Column="23" />
+      <File FileName="Assets\Calibration.cs" Line="1" Column="1" />
       <File FileName="Assets\Food_Count3.cs" Line="1" Column="1" />
-      <File FileName="Assets\Pacman\CreateAsset\Game3\script\PackStage3.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game3\script\PackStage3.cs" Line="17" Column="12" />
       <File FileName="Assets\Pacman\CreateAsset\Game2\script\PackStage2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\MyViewer.cs" Line="40" Column="4" />
-      <File FileName="Assets\Script\SocketServer\ServerTest.cs" Line="16" Column="2" />
-      <File FileName="Assets\Script\SocketServer\SocketServer.cs" Line="20" Column="17" />
-      <File FileName="Assets\IP_Port_disp.cs" Line="9" Column="29" />
+      <File FileName="Assets\Script\MyViewer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\SocketServer\ServerTest.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\SocketServer\SocketServer.cs" Line="1" Column="1" />
+      <File FileName="Assets\IP_Port_disp.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game1\script\Maze1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Finalmenu\Script\Finalmenu.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -46,7 +46,7 @@ public class Finish_process : MonoBehaviour {
 		//Debug.Log (calscript.calscore);
 		change_time = InputManager4.Stage_change_time;
 
-		change_time = 10f;
+		//change_time = 10f;
 
 		Debug.Log ("stagetime" + change_time);
 
