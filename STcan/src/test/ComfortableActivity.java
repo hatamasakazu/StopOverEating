@@ -149,10 +149,12 @@ public class ComfortableActivity extends Activity implements View.OnClickListene
 
 
 
-		button = (Button)findViewById(R.id.socketbutton);
-		button.setOnClickListener(this);
-
-
+		button = (Button) findViewById(R.id.socketbutton);
+		try {
+			button.setOnClickListener(this);
+		}catch (Exception e){
+			Log.d("error","error"+11);
+		}
 	}
 
 	@Override

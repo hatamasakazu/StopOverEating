@@ -1,4 +1,4 @@
-#Thu Nov 22 15:16:44 EET 2018
+#Fri Nov 23 16:57:38 EET 2018
 base.0=C\:\\Users\\htmsk\\Desktop\\M2\\STcan\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e18d2dc9a4da735fdd6358d507bab1bccab33f13
 renamed.1=classes.dex
 renamed.0=classes2.dex

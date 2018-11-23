@@ -8,6 +8,7 @@ import jp.aoyama.wil.kana.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -48,6 +49,8 @@ public class TestActivity extends Activity {
 			public void onClick(View view) {
 				ip_text = ipaddress.getText().toString();
 				po_text = portnumber.getText().toString();
+				Log.d("ipaddress","ipaddress"+ip_text);
+
 			}
 		});
 

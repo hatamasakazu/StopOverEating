@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.1"
-        sha1="29f2b5b0aa31df36e57d2dcf08bc9e822ae2064d">
+        sha1="5e9c221c4dd9f5424ddb4cfef2ef3f5c2ca9cb3c">
         <dex dex="C:\Users\htmsk\Desktop\M2\STcan\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bbe12555e58ddb78e50be652850142337193a0ce\classes.dex" />
     </item>
     <item
@@ -18,6 +18,15 @@
         revision="25.0.1"
         sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
         <dex dex="C:\Users\htmsk\Desktop\M2\STcan\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_36ed8018ee6d1e5453b637765c95ee138bd819c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\htmsk\Desktop\M2\STcan\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="C:\Users\htmsk\Desktop\M2\STcan\build\intermediates\pre-dexed\debug\android-support-v4_36ed8018ee6d1e5453b637765c95ee138bd819c8.jar" />
     </item>
     <item
         is-multidex="true"
