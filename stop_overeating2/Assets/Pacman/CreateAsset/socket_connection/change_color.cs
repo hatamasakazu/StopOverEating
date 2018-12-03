@@ -70,7 +70,7 @@ namespace Script.SocketServer{
 				if(flag_Sec){
 					Debug.Log("来とる");
 					if(Time.timeSinceLevelLoad >= calibration_script.caliburation_time){
-						if (num <= calibration_script.Sec_interval_average && num > 0) {
+						if (num > calibration_script.Sec_interval_average ) {
 							audio_script.PlayClip (audioclip);
 							//Debug.Log ("高すぎ"+num);
 							obcolor.GetComponent<Image>().color = Color.red;
@@ -80,7 +80,7 @@ namespace Script.SocketServer{
 							angry.SetActive (true);
 							Debug.Log(Time.timeSinceLevelLoad);
 
-						} else if (num > calibration_script.Sec_interval_average) {
+						} else if (num <= calibration_script.Sec_interval_average && num > 0) {
 							audio_script.PlayClip (audioclip2);
 							//Debug.Log ("丁度いい" + num);
 							obcolor.GetComponent<Image>().color = Color.blue;

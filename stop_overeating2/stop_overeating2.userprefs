@@ -1,15 +1,7 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Hata_Script\Overall_processing\Finish_process.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Pacman\CreateAsset\Finalmenu\Script\Finalmenu.cs">
     <Files>
-      <File FileName="Assets\Hata_Script\Overall_processing\Finish_process.cs" Line="1" Column="1" />
-      <File FileName="Assets\Disp_score2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Disp_score3.cs" Line="1" Column="1" />
-      <File FileName="Assets\Disp_score4.cs" Line="1" Column="1" />
-      <File FileName="Assets\Hata_Script\sounds\AudioManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Hata_Script\MainMenu\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Quit_Button.cs" Line="1" Column="1" />
-      <File FileName="Assets\LevelSet.cs" Line="1" Column="1" />
       <File FileName="Assets\Calibration.cs" Line="1" Column="1" />
       <File FileName="Assets\Food_Count3.cs" Line="1" Column="1" />
       <File FileName="Assets\Pacman\CreateAsset\Game3\script\PackStage3.cs" Line="1" Column="1" />
@@ -19,7 +11,9 @@
       <File FileName="Assets\Script\SocketServer\SocketServer.cs" Line="1" Column="1" />
       <File FileName="Assets\IP_Port_disp.cs" Line="1" Column="1" />
       <File FileName="Assets\Pacman\CreateAsset\Game1\script\Maze1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Pacman\CreateAsset\Finalmenu\Script\Finalmenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Finalmenu\Script\Finalmenu.cs" Line="70" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\Game5\Script\Maze5.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pacman\CreateAsset\socket_connection\change_color.cs" Line="73" Column="57" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
