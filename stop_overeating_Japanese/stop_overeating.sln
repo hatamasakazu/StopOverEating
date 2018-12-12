@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stop_overeating", "Assembly-CSharp-firstpass.csproj", "{29173263-BBAF-D683-2673-634B829019CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stop_overeating", "Assembly-CSharp.csproj", "{7B4C8F95-7D45-5B74-60A5-94D9EE96BCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stop_overeating", "Assembly-CSharp-Editor.csproj", "{00C00E38-4315-345F-8B07-FAF5D1D74F7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29173263-BBAF-D683-2673-634B829019CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29173263-BBAF-D683-2673-634B829019CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29173263-BBAF-D683-2673-634B829019CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29173263-BBAF-D683-2673-634B829019CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B4C8F95-7D45-5B74-60A5-94D9EE96BCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B4C8F95-7D45-5B74-60A5-94D9EE96BCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B4C8F95-7D45-5B74-60A5-94D9EE96BCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B4C8F95-7D45-5B74-60A5-94D9EE96BCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C00E38-4315-345F-8B07-FAF5D1D74F7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C00E38-4315-345F-8B07-FAF5D1D74F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C00E38-4315-345F-8B07-FAF5D1D74F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C00E38-4315-345F-8B07-FAF5D1D74F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
